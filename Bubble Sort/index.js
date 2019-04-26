@@ -1,5 +1,3 @@
-const myArr = [100, 99, 98, 97, 96, 95, 94, 93, 92, 91, 90];
-
 function bubbleSort(array) {
   const arr = array;
   let swapped;
@@ -33,11 +31,11 @@ function bubbleSort(array) {
     if (!swapped) {
       console.log('Sorted!');
       return arr;
-      break;
     }
   }
 }
 
+const myArr = [100, 99, 98, 97, 96, 95, 94, 93, 92, 91, 90];
 console.log(bubbleSort(myArr));
 
 /* --Jay Wengrow implementation
